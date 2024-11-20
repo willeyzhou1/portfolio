@@ -1,0 +1,36 @@
+.NavBar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #DCE2F0;
+    padding: 1rem;
+}
+
+.NavBar .elements {
+    list-style-type: none;
+    display: inline-flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    text-align: center;
+    
+
+}
+
+.NavBar .elements li {
+    padding: 1rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.NavBar .elements a {
+    color: #50586C;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 40px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.NavBar .elements a:hover {
+    color:#1b1d23;
+    transition: 0.3s;
+}
