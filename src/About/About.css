@@ -5,3 +5,7 @@ body {
 .introduction {
     font-family: 'Tahoma' sans-serif;
 }
+
+.about .introduction li {
+    list-style: circle;
+}

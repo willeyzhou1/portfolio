@@ -2,6 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 import NavPage from './NavPage/Navpage.js'
 import About from './About/About.js'
+import Projects from './Projects/Projects.js'
 import './App.css';
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
         <NavPage />
         <Routes>
         <Route path="/" element={<About/>}/>
+        <Route path="/projects" element={<Projects/>}/>
         </Routes>
 
       </Router>
