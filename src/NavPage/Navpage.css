@@ -12,8 +12,6 @@
     margin-right: auto;
     padding: 0;
     text-align: center;
-    
-
 }
 
 .NavBar .elements li {
@@ -24,7 +22,7 @@
 
 .NavBar .elements a {
     color: #50586C;
-    font-family: "Times New Roman", Times, serif;
+    font-family: 'Tahoma', sans-serif;
     font-size: 40px;
     font-weight: bold;
     text-decoration: none;

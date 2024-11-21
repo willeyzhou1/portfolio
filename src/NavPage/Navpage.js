@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import { Link, useLocation } from "react-router-dom";
 import './Navpage.css';
 
 export default function Navpage() {
@@ -7,7 +6,7 @@ export default function Navpage() {
         <nav className="NavBar">
             <ul className="elements">
                 <li>
-                    <a href='/about'>About Me!</a>
+                    <a href='/'>About Me!</a>
                 </li>
                 <li>
                     <a href='/projects'>My Projects</a>
