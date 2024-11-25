@@ -1,11 +1,30 @@
-body {
-    background-color: rgb(122, 122, 151);
+.about {
+    max-width: 70%;
+    margin: 0 auto;
 }
 
-.introduction {
-    font-family: 'Tahoma' sans-serif;
+.about ul {
+    display: block;
+    justify-content: space-between;
+    border: 2px solid black;
+    width: 70%;
+    margin: 0 auto;
 }
 
-.about .introduction li {
-    list-style: circle;
+.about li {
+    font-size: 20px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.about p {
+    font-size: 35px;
+}
+
+.about h1 {
+    font-size: 50px;
+}
+
+.border {
+    border-bottom: 3px solid rgb(0, 0, 0);
 }

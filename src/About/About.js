@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import './About.css';
+import garagePic from '../assets/garagepic.jpg'
 
 export default function About() {
     return (
@@ -8,23 +9,23 @@ export default function About() {
                 <div className='bigTitle'>
                     <h1>Hi! I'm Willey.</h1>
                 </div>
-                <img className='selfPortrait'></img>
-                <div className='description'>
-                    <h2>I am currently a 4th-year undergraduate student as a Math-CS major and Cognitive Science Minor at UC San Diego.
+                <img className='selfPortrait' src={garagePic} alt="Me in a garage" width="450" height="600"/>
+            </div>
+
+            <div className='description'>
+                    <p>I am currently a 4th-year undergraduate student as a Math-CS major and Cognitive Science Minor at UC San Diego.
                         I am an aspiring fullstack software engineer who has experience using:
-                    </h2>
+                    </p>
                     <div className='slideshow'>
                         logo of stuff slideshow here.
                     </div>
-                    <h2>In my free time, I enjoy playing the piano and guitar, playing and watching basketball, and weightlifting.
+                    <p>In my free time, I enjoy playing the piano and guitar, playing and watching basketball, and weightlifting.
                         Thank you for stopping by!
-                    </h2>
+                    </p>
                 </div>
-            </div>
-
+            <div className='border'></div>
+            <h1 className='experienceTitle'>Work/Leadership Experiences</h1>
             <div className='experiences'>
-                <h1>Work/Leadership Experiences</h1>
-                
                 <div className='YStemandChess'>
                     <h2>YStemandChess</h2>
                     <ul className='yStemPointers'>
