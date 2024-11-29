@@ -3,10 +3,13 @@
     margin: 0 auto;
 }
 
+.bigTitle h1 {
+    font-size: 50px;
+}
+
 .about ul {
     display: block;
     justify-content: space-between;
-    border: 2px solid black;
     width: 70%;
     margin: 0 auto;
 }
@@ -21,10 +24,32 @@
     font-size: 35px;
 }
 
-.about h1 {
-    font-size: 50px;
+.experienceTitle {
+    font-size: 35px;
 }
 
 .border {
     border-bottom: 3px solid rgb(0, 0, 0);
+}
+
+.thingy {
+    display: block;
+    border: 2px solid black;
+}
+
+.thingy:not(.thingy h2) {
+    display: flex;
+    justify-content: space-between;
+}
+
+.expImage {
+    padding: 3rem;
+}
+
+.experiences ul {
+    padding: 2rem;
+}
+
+.acmImage {
+    padding: 1rem 3rem;
 }

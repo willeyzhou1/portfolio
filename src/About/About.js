@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import './About.css';
 import garagePic from '../assets/garagepic.jpg'
+import ystemandchess from '../assets/ystemandchess.png'
+import acm from '../assets/acm.png'
 
 export default function About() {
     return (
@@ -26,8 +28,9 @@ export default function About() {
             <div className='border'></div>
             <h1 className='experienceTitle'>Work/Leadership Experiences</h1>
             <div className='experiences'>
-                <div className='YStemandChess'>
-                    <h2>YStemandChess</h2>
+                <h2>YStemandChess</h2>
+                <div className='thingy'>
+                    <img className='expImage' src={ystemandchess} alt="Me in a garage" width="350" height="130"/>
                     <ul className='yStemPointers'>
                         <li>
                             Created several functions in Javascript utilizing PostgreSQL in order to handle various account requests
@@ -40,10 +43,9 @@ export default function About() {
                         </li>
                     </ul>
                 </div>
-
-                <div className='acm'>
-                    <h2>ACM at UCSD</h2>
-                    <ul className='ACMPointers'>
+                <h2>ACM at UCSD</h2>
+                <div className='thingy'>
+                    <ul className='ul'>
                         <li>
                             Participated in a quarter-long project with five members and delegated tasks for backend and frontend developers respectively
                         </li>
@@ -51,6 +53,7 @@ export default function About() {
                             Demonstrated the finished website to a panel of 100+ people in a school-wide conference
                         </li>
                     </ul>
+                    <img className='acmImage' src={acm} alt="ACM logo" width="140" height="140"/>
                 </div>
             </div>
         </div>

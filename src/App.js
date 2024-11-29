@@ -16,7 +16,6 @@ function App() {
         </Routes>
 
       </Router>
-      <h2>meow</h2>
     </div>
   );
 }
