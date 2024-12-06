@@ -3,6 +3,7 @@
     justify-content: space-between;
     background-color: #DCE2F0;
     padding: 1rem;
+    width: 100%;
 }
 
 .NavBar .elements {

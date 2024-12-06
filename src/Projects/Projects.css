@@ -1,0 +1,12 @@
+.pages {
+    width: 50%;
+    margin: 0 auto;
+}
+
+li {
+    list-style-type: none;
+}
+
+.pages ul {
+    border: 2px solid rgb(26, 3, 99);
+}

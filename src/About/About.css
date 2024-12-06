@@ -35,6 +35,7 @@
 .thingy {
     display: block;
     border: 2px solid black;
+    border-radius: 0px;
 }
 
 .thingy:not(.thingy h2) {
@@ -44,6 +45,7 @@
 
 .expImage {
     padding: 3rem;
+    float: left;
 }
 
 .experiences ul {
@@ -52,4 +54,5 @@
 
 .acmImage {
     padding: 1rem 3rem;
+    float: right;
 }
