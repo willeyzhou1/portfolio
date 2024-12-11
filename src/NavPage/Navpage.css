@@ -1,33 +1,22 @@
 .NavBar {
     display: flex;
-    justify-content: space-between;
-    background-color: #DCE2F0;
+    justify-content: space-evenly;
+    background-color: #488e6f;
     padding: 1rem;
     width: 100%;
+    box-sizing: border-box;
+    position: fixed;
 }
 
-.NavBar .elements {
-    list-style-type: none;
-    display: inline-flex;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0;
-    text-align: center;
-}
-
-.NavBar .elements li {
-    padding: 1rem;
-    margin-left: 3rem;
-    margin-right: 3rem;
-}
-
-.NavBar .elements a {
-    color: #50586C;
-    font-size: 40px;
+.NavBar a {
     text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
 }
 
-.NavBar .elements a:hover {
-    color:#1b1d23;
-    transition: 0.3s;
+.NavBar a:hover {
+    color: black;
+    transition: color 100ms linear;
+    text-decoration: underline;
 }

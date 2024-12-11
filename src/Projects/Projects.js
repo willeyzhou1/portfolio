@@ -5,7 +5,7 @@ import ystemandchess from '../assets/acm.png'
 export default class Projects extends Component {
   render() {
     return (
-      <div className='pages'>
+      <div className='pages' id='projects'>
         <h1>Projects</h1>
         <p>These are some of the projects that I have done :D</p>
         <li className='projects'>

@@ -6,7 +6,7 @@ import acm from '../assets/acm.png'
 
 export default function About() {
     return (
-        <div className='about'>
+        <div id='about' className='about'>
             <div className='introduction'>
                 <div className='bigTitle'>
                     <h1>Hi! I'm Willey.</h1>
@@ -25,8 +25,11 @@ export default function About() {
                         Thank you for stopping by!
                     </p>
                 </div>
+
             <div className='border'></div>
+
             <h1 className='experienceTitle'>Work/Leadership Experiences</h1>
+
             <div className='experiences'>
                 <h2>YStemandChess</h2>
                 <div className='thingy'>

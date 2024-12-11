@@ -1,7 +1,8 @@
 .about {
     max-width: 70%;
-    margin: 0 auto;
+    margin: 0 auto 5rem auto;
 }
+
 
 .bigTitle h1 {
     font-size: 50px;
@@ -27,9 +28,14 @@
 .experienceTitle {
     font-size: 35px;
 }
-
+.experiences, .introduction, .description {
+    border: 3px solid purple;
+    padding: 1px;
+}
 .border {
-    border-bottom: 3px solid rgb(0, 0, 0);
+    border-bottom: 3px solid rgba(0, 0, 0, 0.638);
+    width: 80%;
+    margin: 0 auto;
 }
 
 .thingy {

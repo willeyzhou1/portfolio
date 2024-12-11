@@ -4,17 +4,9 @@ import './Navpage.css';
 export default function Navpage() {
     return (
         <nav className="NavBar">
-            <ul className="elements">
-                <li>
-                    <a href='/'>About Me!</a>
-                </li>
-                <li>
-                    <a href='/projects'>My Projects</a>
-                </li>
-                <li>
-                    <a href='/contact'>Contact</a>
-                </li>
-            </ul>
+            <a href='#about'>About Me</a>
+            <a href='#projects'>My Projects</a>
+            <a href='#contact'>Contact</a>
         </nav>
     );
 }
