@@ -1,10 +1,5 @@
 .App {
   text-align: center;
-  background: radial-gradient(
-    circle closest-corner at 50% 30%,
-    rgb(209, 145, 209) 10%, 40%,
-    rgb(146, 146, 200) 90%
-    );
   font-family: 'Tahoma', sans-serif;
   padding-bottom: 5rem;
   box-sizing: border-box;

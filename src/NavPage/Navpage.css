@@ -2,10 +2,10 @@
     display: flex;
     justify-content: space-evenly;
     background-color: #488e6f;
+    height: 7vh;
     padding: 1rem;
     width: 100%;
     box-sizing: border-box;
-    position: fixed;
 }
 
 .NavBar a {

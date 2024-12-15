@@ -1,13 +1,18 @@
 .about {
-    max-width: 70%;
-    margin: 0 auto 5rem auto;
+    width: 100%;
+    height: 93vh;
+    margin: 0 auto;
+    box-sizing: border-box;
+    background-image: url(../assets/background.avif);
+    display: flex;
+    justify-content: space-evenly;
 }
 
-
-.bigTitle h1 {
+.bigTitle {
     font-size: 50px;
+    color: white;
 }
-
+/*
 .about ul {
     display: block;
     justify-content: space-between;
@@ -28,10 +33,11 @@
 .experienceTitle {
     font-size: 35px;
 }
+
 .experiences, .introduction, .description {
-    border: 3px solid purple;
     padding: 1px;
 }
+
 .border {
     border-bottom: 3px solid rgba(0, 0, 0, 0.638);
     width: 80%;
@@ -61,4 +67,4 @@
 .acmImage {
     padding: 1rem 3rem;
     float: right;
-}
+}*/

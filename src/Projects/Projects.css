@@ -1,12 +1,20 @@
 .pages {
-    width: 50%;
     margin: 0 auto;
+    background: linear-gradient(60deg, rgb(237, 148, 148), rgb(144, 144, 223));
+    box-sizing: border-box;
+    border: 3px solid black;
 }
 
 li {
+    width: 50%;
     list-style-type: none;
+    margin: 0 auto;
 }
 
 .pages ul {
     border: 2px solid rgb(26, 3, 99);
+}
+
+.pages h1 {
+    padding: 3rem;
 }
