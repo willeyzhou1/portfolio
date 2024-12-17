@@ -1,7 +1,7 @@
 .NavBar {
     display: flex;
     justify-content: space-evenly;
-    background-color: #488e6f;
+    background-color: #ec382b;
     height: 7vh;
     padding: 1rem;
     width: 100%;
@@ -17,6 +17,6 @@
 
 .NavBar a:hover {
     color: black;
-    transition: color 100ms linear;
     text-decoration: underline;
+    transition: color 100ms linear;
 }
