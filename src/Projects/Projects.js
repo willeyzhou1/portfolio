@@ -10,30 +10,33 @@ export default class Projects extends Component {
         <h1>Projects</h1>
         <p>These are some of the projects that I have done :D</p>
         <li className='projects'>
-          <ProjectComponent 
-          linkClass='element' 
-          link='https://github.com/acmucsd-projects/sp23-hack-team-3'
-          image={ystemandchess}
-          textClass='text'
-          header='Eventify'
-          description='Created a website that allows for 1000+ students to advertise events happening on campus. Worked as a frontend developer.'
-          />
-          <ProjectComponent 
-          linkClass='element' 
-          link='https://github.com/acmucsd-projects/sp23-hack-team-3'
-          image={ystemandchess}
-          textClass='text'
-          header='Eventify'
-          description='Created a website that allows for 1000+ students to advertise events happening on campus. Worked as a frontend developer.'
-          />
-          <ProjectComponent 
-          linkClass='element' 
-          link='https://github.com/acmucsd-projects/sp23-hack-team-3'
-          image={ystemandchess}
-          textClass='text'
-          header='Eventify'
-          description='Created a website that allows for 1000+ students to advertise events happening on campus. Worked as a frontend developer.'
-          />
+          <ul>
+            <a className='element' href='https://github.com/acmucsd-projects/sp23-hack-team-3'>
+              <img src={ystemandchess} height='200px' width='200px'></img>
+                <div className='text'>
+                  <h2>Eventify</h2>
+                  <p>Created a website that allows for 1000+ students to advertise events happening on campus. Worked as a frontend developer.</p>
+                </div>
+            </a>
+          </ul>
+          <ul>
+            <a className='element' href='https://github.com/acmucsd-projects/sp23-hack-team-3'>
+              <img src={ystemandchess} height='200px' width='200px'></img>
+                <div className='text'>
+                  <h2>Eventify</h2>
+                  <p>Created a website that allows for 1000+ students to advertise events happening on campus. Worked as a frontend developer.</p>
+                </div>
+            </a>
+          </ul>
+          <ul>
+            <a className='element' href='https://github.com/acmucsd-projects/sp23-hack-team-3'>
+              <img src={ystemandchess} height='200px' width='200px'></img>
+                <div className='text'>
+                  <h2>Eventify</h2>
+                  <p>Created a website that allows for 1000+ students to advertise events happening on campus. Worked as a frontend developer.</p>
+                </div>
+            </a>
+          </ul>
         </li>
 
       </div>

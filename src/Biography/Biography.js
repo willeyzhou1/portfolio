@@ -33,7 +33,7 @@ export default class Biography extends Component {
                 <h2>ACM at UCSD</h2>
                 <h4>Frontend Developer</h4>
                 <div className='experience'>
-                    <p>Worked in a group of five other members as a frontend developer and presented to 100+ people in a school-wide conference.</p>
+                    <p>Worked in a group of five other members as a frontend developer and presented to 100+ people in a school-wide conference</p>
                     <img className='expImage' src={acm} alt="ACM logo" width="140" height="140"/>
                 </div>
             </div>

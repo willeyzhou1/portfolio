@@ -1,19 +1,22 @@
 .biography {
     position: relative;
-    background: linear-gradient(rgb(199, 199, 199) 20%, rgb(255, 255, 255));
+    background: linear-gradient(rgb(0, 0, 0) 20%, rgb(16, 16, 16));
     box-sizing: border-box;
+    margin: 0 auto;
+    color: var(--font-color);
 }
 
 .blueBar {
     width: 80%;
     border: none;
     border-top: 5px solid rgb(88, 88, 226);
-    border-radius: 45deg;
+    border-radius: 2px 2px;
     padding: 3px;
 }
 
 .blueBar:last-of-type {
     margin-top: 3rem;
+    margin-bottom: 0;
 }
 
 .description p{
@@ -22,18 +25,22 @@
     max-width: 70%;
     margin: 0 auto;
     padding: 2rem;
+    color: var(--font-color);
 }
 
 .experienceTitle {
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-style: bold;
     font-size: 3rem;
+}
+
+.expList {
+    color: var(--font-color);
 }
 
 .expList h2 {
     padding: 0;
     margin: 0;
-    color: black;
+    color: var(--font-color);
     text-decoration: underline;
     font-size: 2rem;
     letter-spacing: 2px;
@@ -41,7 +48,7 @@
 .expList h4 {
     padding: 1px;
     margin: 0;
-    color: rgb(88, 87, 87);
+    color: var(--font-color);
     font-size: 20px;
     
 }
@@ -55,7 +62,15 @@
     border-radius: 30px;
     box-shadow: 10px 10px 5px gray;
     padding: 1rem 5rem;
-    background-color: rgb(189, 189, 238);
+    background-color: rgb(178, 188, 209);
     font-size: 20px;
+    align-items: center;
+    color: rgb(40, 38, 38);
+    
 }
 
+.experience .expImage {
+    border: 2px solid black;
+    background: white;
+    border-radius: 1rem;
+}
