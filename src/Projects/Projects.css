@@ -51,4 +51,16 @@
     margin: 0 auto;
 }
 
+.blueBar {
+    width: 80%;
+    border: none;
+    border-top: 5px solid rgb(88, 88, 226);
+    border-radius: 2px 2px;
+    padding: 3px;
+}
+
+.blueBar:last-of-type {
+    margin-top: 3rem;
+    margin-bottom: 0;
+}
 

@@ -1,24 +1,38 @@
 .NavBar {
-    display: flex;
-    justify-content: space-evenly;
-    background-color: #ec382b;
-    height: 7vh;
-    padding: 1rem;
+    display: absolute;
+    padding: 0.7rem;
     width: 100%;
     box-sizing: border-box;
+    background-color: black;
+    z-index: 100000;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1rem auto;
+    width: 55%;
+    padding: 6px 0;
+    background: url(../assets/galaxy.jpg);
+    border: 3px solid var(--font-color);
+    border-radius: 40px;
+    font-family: 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .NavBar a {
     text-decoration: none;
-    color: white;
+    color: var(--font-color);
     font-size: 25px;
     font-weight: bold;
+    padding: 15px;
+    border-radius: 40px;
 }
 
 .NavBar a:hover {
     color: black;
     text-decoration: underline;
-    transition: color 100ms linear, text-decoration 100ms linear;
+    background-color: white;
+    transition: color 300ms ease, text-decoration 300ms ease, background-color 300ms ease;
 }
 
 html {

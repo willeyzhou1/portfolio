@@ -14,7 +14,7 @@ export default class Projects extends Component {
         <p>These are some of the projects that I have done :D</p>
         <div className='projects'>
           <div className='project'>
-            <a className='element' href='https://github.com/acmucsd-projects/sp23-hack-team-3' target='_blank'>
+            <a className='element' href='https://github.com/acmucsd-projects/sp23-hack-team-3' target='_blank' rel="noreferrer">
             <img src={acm} alt='YStemandChess Logo' height='200px' width='200px' />
               <div className='text'>
                 <h2>Eventify</h2>
@@ -23,7 +23,7 @@ export default class Projects extends Component {
             </a>
           </div>
           <div className='project'>
-            <a className='element' href='https://github.com/willeyzhou1/Real-Estate-and-Remote-Work-Analysis' target='_blank'>
+            <a className='element' href='https://github.com/willeyzhou1/Real-Estate-and-Remote-Work-Analysis' target='_blank' rel="noreferrer">
               <img src={barChart} alt='bar Chart' height='200px' width='200px' />
                 <div className='text'>
                   <h2>Real Estate and Remote Work Analysis</h2>
@@ -32,14 +32,15 @@ export default class Projects extends Component {
             </a>
           </div>
           <div className='project'>
-            <a className='element' href='https://github.com/willeyzhou1/portfolio' target='_blank'>
-              <img src={website} height='200px' width='200px' />
+            <a className='element' href='https://github.com/willeyzhou1/portfolio' target='_blank' rel="noreferrer">
+              <img src={website} alt='My website' height='200px' width='200px' />
                 <div className='text'>
                   <h2>Portfolio Website</h2>
                   <p>Coded website using React; utilized HTML/CSS to create creative designs and transitions</p>
                 </div>
             </a>
           </div>
+          <hr className='blueBar'></hr>
         </div>
       </div>
     )

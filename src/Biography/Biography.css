@@ -2,8 +2,8 @@
     position: relative;
     background: linear-gradient(rgb(0, 0, 0) 20%, rgb(10, 10, 10));
     box-sizing: border-box;
-    margin: 0 auto;
     color: var(--font-color);
+    margin: 0 auto;
 }
 
 .blueBar {
@@ -93,7 +93,7 @@
     
 }
 .experience {
-    width: 500px;
+    width: 620px;
     display: flex;
     column-gap: 3rem;
     justify-content: space-between;
