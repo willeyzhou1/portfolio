@@ -6,7 +6,9 @@ export default class Contact extends Component {
     return (
       <div className='contact' id='contact'>
         <h1>Contact Me!</h1>
-        <textarea placeholder='please write something in here'></textarea>
+        <textarea class='email' placeholder='Please enter your email.' type='email'></textarea>
+        <textarea class='message' placeholder='please write something in here'></textarea>
+        <button class='submit' type='button' >Submit</button>
       </div>
     );
   }

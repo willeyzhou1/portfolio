@@ -1,7 +1,9 @@
 import React, { Component } from 'react'
 import './Projects.css';
-import ystemandchess from '../assets/acm.png'
-import ProjectComponent from '../Components/projectComponent.js'
+import acm from '../assets/acm.png'
+import barChart from '../assets/barchart.png'
+import website from '../assets/website.webp'
+
 
 export default class Projects extends Component {
   
@@ -12,8 +14,8 @@ export default class Projects extends Component {
         <p>These are some of the projects that I have done :D</p>
         <div className='projects'>
           <div className='project'>
-            <a className='element' href='https://github.com/acmucsd-projects/sp23-hack-team-3'>
-            <img src={ystemandchess} alt='YStemandChess Logo'height='200px' width='200px' />
+            <a className='element' href='https://github.com/acmucsd-projects/sp23-hack-team-3' target='_blank'>
+            <img src={acm} alt='YStemandChess Logo' height='200px' width='200px' />
               <div className='text'>
                 <h2>Eventify</h2>
                 <p>Created a website that allows for 1000+ students to advertise events happening on campus. Worked as a frontend developer.</p>
@@ -21,25 +23,24 @@ export default class Projects extends Component {
             </a>
           </div>
           <div className='project'>
-            <a className='element' href='https://github.com/acmucsd-projects/sp23-hack-team-3'>
-              <img src={ystemandchess} height='200px' width='200px' />
+            <a className='element' href='https://github.com/willeyzhou1/Real-Estate-and-Remote-Work-Analysis' target='_blank'>
+              <img src={barChart} alt='bar Chart' height='200px' width='200px' />
                 <div className='text'>
-                  <h2>Eventify</h2>
-                  <p>Created a website that allows for 1000+ students to advertise events happening on campus. Worked as a frontend developer.</p>
+                  <h2>Real Estate and Remote Work Analysis</h2>
+                  <p>Utilized Python and Pandas to track trends between real estate demands and remote work.</p>
                 </div>
             </a>
           </div>
           <div className='project'>
-            <a className='element' href='https://github.com/acmucsd-projects/sp23-hack-team-3'>
-              <img src={ystemandchess} height='200px' width='200px' />
+            <a className='element' href='https://github.com/willeyzhou1/portfolio' target='_blank'>
+              <img src={website} height='200px' width='200px' />
                 <div className='text'>
-                  <h2>Eventify</h2>
-                  <p>Created a website that allows for 1000+ students to advertise events happening on campus. Worked as a frontend developer.</p>
+                  <h2>Portfolio Website</h2>
+                  <p>Coded website using React; utilized HTML/CSS to create creative designs and transitions</p>
                 </div>
             </a>
           </div>
         </div>
-
       </div>
     )
   }
