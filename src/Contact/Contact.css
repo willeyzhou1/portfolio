@@ -1,0 +1,20 @@
+.contact {
+    background: linear-gradient(rgb(16, 16, 16), rgb(25, 25, 25));
+    padding-top: 1rem;
+    padding-bottom: 5rem;
+    box-sizing: border-box;
+}
+
+.contact h1 {
+    font-size: 3rem;
+    font-style: bold;
+    color: var(--font-color);
+}
+
+textarea {
+    width: 50%;
+    height: 300px;
+    font-size: 20px;
+    background-color: bisque;
+    padding: 1rem;
+}
