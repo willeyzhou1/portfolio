@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import './About.css';
 import garagePic from '../assets/garagepic.jpg'
-import background from '../assets/background.avif'
 
 export default function About() {
     return (

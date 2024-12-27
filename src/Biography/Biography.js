@@ -1,18 +1,55 @@
 import React, { Component } from 'react'
 import ystemandchess from '../assets/ystemandchess.png'
 import acm from '../assets/acm.png'
+import { DiReact, DiHtml5, DiCss3, DiJavascript, DiGithub, DiNodejs, DiPython, DiMongodb, DiPostgresql } from "react-icons/di"
 import './Biography.css'
 
 export default class Biography extends Component {
   render() {
     return (
-        <div className='biography' id='biography'>
+        <div className='biography'>
             <div className='description'>
                 <p>I am currently a 4th-year undergraduate student as a Math-CS major and Cognitive Science Minor at UC San Diego.
                 I am an aspiring fullstack software engineer who has experience using:
                 </p>
                 <div className='slideshow'>
-                    logo of stuff slideshow here.
+                    <div className='icon-container'>
+                        <i><DiReact /></i>
+                        <h3>React</h3>
+                    </div>
+                    <div className='icon-container'>
+                        <i><DiHtml5 /></i>
+                        <h3>HTML</h3>
+                    </div>
+                    <div className='icon-container'>
+                        <i><DiCss3 /></i>
+                        <h3>CSS</h3>
+                    </div>
+                    <div className='icon-container'>
+                        <i><DiJavascript /></i>
+                        <h3>Javascript</h3>
+                    </div>
+                    <div className='icon-container'>
+                        <i><DiNodejs /></i>
+                        <h3>Node.js</h3>
+                    </div>
+                    <div className='icon-container'>
+                        <i><DiPython /></i>
+                        <h3>Python</h3>
+                    </div>
+                    <div className='icon-container'>
+                        <i><DiMongodb /></i>
+                        <h3>MongoDB</h3>
+                    </div>
+                    <div className='icon-container'>
+                        <i><DiPostgresql /></i>
+                        <h3>PostgreSQL</h3>
+                    </div>
+                    <div className='icon-container'>
+                        <i><DiGithub /></i>
+                        <h3>Github</h3>
+                    </div>
+
                 </div>
                 <p>In my free time, I enjoy playing the piano and guitar, playing and watching basketball, and weightlifting.
                     Thank you for stopping by!

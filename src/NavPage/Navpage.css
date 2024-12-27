@@ -18,5 +18,9 @@
 .NavBar a:hover {
     color: black;
     text-decoration: underline;
-    transition: color 100ms linear;
+    transition: color 100ms linear, text-decoration 100ms linear;
+}
+
+html {
+    scroll-behavior: smooth;
 }

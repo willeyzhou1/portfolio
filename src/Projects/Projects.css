@@ -1,6 +1,6 @@
 .pages {
     position: relative;
-    background: linear-gradient(rgb(16, 16, 16), rgb(32, 32, 32));
+    background: linear-gradient(rgb(10, 10, 10), rgb(20, 20, 20));
     margin: 0 auto;
     padding-top: 1rem;
     color: var(--font-color);
@@ -13,7 +13,7 @@
 }
 
 .projects {
-    width: 600px;
+    width: 800px;
     list-style-type: none;
     margin: 0 auto;
 }

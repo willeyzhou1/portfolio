@@ -13,7 +13,7 @@ export default class Projects extends Component {
         <div className='projects'>
           <div className='project'>
             <a className='element' href='https://github.com/acmucsd-projects/sp23-hack-team-3'>
-            <img src={ystemandchess} height='200px' width='200px'></img>
+            <img src={ystemandchess} alt='YStemandChess Logo'height='200px' width='200px' />
               <div className='text'>
                 <h2>Eventify</h2>
                 <p>Created a website that allows for 1000+ students to advertise events happening on campus. Worked as a frontend developer.</p>
@@ -22,7 +22,7 @@ export default class Projects extends Component {
           </div>
           <div className='project'>
             <a className='element' href='https://github.com/acmucsd-projects/sp23-hack-team-3'>
-              <img src={ystemandchess} height='200px' width='200px'></img>
+              <img src={ystemandchess} height='200px' width='200px' />
                 <div className='text'>
                   <h2>Eventify</h2>
                   <p>Created a website that allows for 1000+ students to advertise events happening on campus. Worked as a frontend developer.</p>
@@ -31,7 +31,7 @@ export default class Projects extends Component {
           </div>
           <div className='project'>
             <a className='element' href='https://github.com/acmucsd-projects/sp23-hack-team-3'>
-              <img src={ystemandchess} height='200px' width='200px'></img>
+              <img src={ystemandchess} height='200px' width='200px' />
                 <div className='text'>
                   <h2>Eventify</h2>
                   <p>Created a website that allows for 1000+ students to advertise events happening on campus. Worked as a frontend developer.</p>

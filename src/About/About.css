@@ -3,7 +3,7 @@
     height: 93vh;
     margin: 0 auto;
     box-sizing: border-box;
-    background-image: url(../assets/background.avif);
+    background-image: url(../assets/starrysky.jpg);
     display: flex;
     justify-content: space-evenly;
 }
