@@ -1,5 +1,4 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 import NavPage from './NavPage/Navpage.js'
 import About from './About/About.js'
 import Projects from './Projects/Projects.js'

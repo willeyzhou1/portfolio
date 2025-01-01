@@ -81,15 +81,3 @@ export default class Biography extends Component {
         
   }
 }
-
-/*
-<li>
-                            Created several functions in Javascript utilizing PostgreSQL in order to handle various account requests
-                        </li>
-                        <li>
-                            Created several functions in Javascript utilizing PostgreSQL in order to handle some account requests
-                        </li>
-                        <li>
-                            Created several functions in Javascript utilizing PostgreSQL in order to handle a lot of account requests
-                        </li>
- */
