@@ -1,9 +1,9 @@
 import React from "react";
-import NavPage from './NavPage/Navpage.js'
-import About from './About/About.js'
-import Projects from './Projects/Projects.js'
-import Contact from './Contact/Contact.js'
-import Biography from './Biography/Biography.js'
+import NavPage from './NavPage/Navpage.tsx'
+import About from './About/About.tsx'
+import Projects from './Projects/Projects.tsx'
+import Contact from './Contact/Contact.tsx'
+import Biography from './Biography/Biography.tsx'
 import './App.css';
 
 function App() {
